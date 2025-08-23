@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 50px;
+      background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient Background */
+      color: #fff;
+    }
+    .box {
+      display: inline-block;
+      padding: 30px;
+      border: 3px solid #ffd700; /* Border color */
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1); /* Glass effect */
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    }
+    .box h1 {
+      color: #ffd700; /* Golden text */
+      margin-bottom: 10px;
+    }
+    .box p {
+      color: #f0f0f0;
+      font-size: 18px;
+    }
+    .box img {
+      max-width: 220px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      border: 3px solid #ffd700;
+      transition: transform 0.3s ease;
+    }
+    .box img:hover {
+      transform: rotate(-3deg) scale(1.05);
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      background: #ffd700;
+      color: #2a2a2a;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background: #fff;
+      color: #2a5298;
+      box-shadow: 0 0 15px #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="https://via.placeholder.com/220" alt="Placeholder Image">
+    <h1>✨ Welcome to My Cool Website ✨</h1>
+    <p>This site has gradients, shadows, hover effects, and a glassy style.</p>
+    <button>Click Me 🚀</button>
+  </div>
+</body>
+</html>
